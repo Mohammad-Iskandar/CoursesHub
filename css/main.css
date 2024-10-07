@@ -27,7 +27,7 @@ body{
 }
 .landing-box_for_contactus
 {
-    background-image: url(/Images/Wood.jpg);
+    background-image: url(../Images/Wood.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -36,7 +36,7 @@ body{
 }
 .landing-box
 {
-    background-image: url(/Images/studying-with-coffee-8jtkje1s3d537a6h.jpg );
+    background-image: url(../Images/studying-with-coffee-8jtkje1s3d537a6h.jpg );
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
