@@ -27,7 +27,7 @@ body{
 }
 .landing-box_for_contactus
 {
-    background: url(../Images/Wood.jpg);
+    background-image: url(../Images/Wood.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -36,7 +36,7 @@ body{
 }
 .landing-box
 {
-    background: url(../Images/studying-with-coffee-8jtkje1s3d537a6h.jpg );
+    background-image: url(../Images/studying-with-coffee-8jtkje1s3d537a6h.jpg );
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -466,6 +466,10 @@ header nav .head-ul li.li_courses:hover ul.ul_courses
 @media screen and (max-width:767px) {
     .landing.container .landing-paragraph p {
         font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
     .landing.container .landing-paragraph p span {
         font-size: 34px;
