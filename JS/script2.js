@@ -14,6 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const numbers = document.querySelectorAll('.number');
     numbers.forEach(number => {
         const target = parseInt(number.getAttribute('data-target'));
-        countdown(number, target, 1);
+        countdown(number, target, 0);
     });
 });
