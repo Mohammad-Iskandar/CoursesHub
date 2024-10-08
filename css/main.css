@@ -461,7 +461,7 @@ header nav .head-ul li.li_courses:hover ul.ul_courses
     }
     70%,90% 
     {
-        width: 96%;
+        width: 100%;
     }
 }
 @media screen  and (max-width:767px ) {
