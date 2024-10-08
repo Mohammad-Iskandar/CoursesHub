@@ -382,6 +382,18 @@ header nav .head-ul li.li_courses:hover ul.ul_courses
         top: 117px !important;
         right: 182px ;
     }
+    header nav .head-ul li.li_courses .li_courses_a
+    {
+        font-size: 13px;
+    }
+    header nav .head-ul li.li_courses .li_courses_a
+    {
+        gap: 4px;
+    }
+    header nav .head-ul li.li_courses i 
+    {
+        font-size: 12px;
+    }
 }
 
 /* end header */
@@ -452,6 +464,19 @@ header nav .head-ul li.li_courses:hover ul.ul_courses
         width: 96%;
     }
 }
+@media screen  and (max-width:767px ) {
+    @keyframes typewriter-for-mobile 
+{
+    0%,10%,100% 
+    {
+        width: 0%;
+    }
+    70%,90% 
+    {
+        width: 100%;
+    }
+}
+}
 .landing.container img 
 {
     width: 580px;
@@ -486,7 +511,9 @@ header nav .head-ul li.li_courses:hover ul.ul_courses
     {
         height: 40px;
         top: 11px;
+        animation: typewriter-for-mobile 6s linear infinite;
     }
+    
 }
 @media screen and (min-width:767px) and (max-width:1023px) {
     
