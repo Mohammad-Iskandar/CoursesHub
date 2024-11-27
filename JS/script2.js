@@ -20,5 +20,5 @@ document.addEventListener('DOMContentLoaded', () => {
     countdown(numbers[1], 0, 1);
     
     // المتغير الثالث يبدأ من 0 وينتهي عند 25
-    countdown(numbers[2], 0, 25);
+    countdown(numbers[2], 0, 31);
 });
