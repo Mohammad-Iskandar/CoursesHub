@@ -518,6 +518,80 @@ header nav .head-ul li.li_courses:hover ul.ul_courses
 @media screen and (min-width:767px) and (max-width:1023px) {
     
 }
+.MAA_SEC .MAA_con
+{
+    height: 350px;
+    width: 100%;
+    background-image: url(../Images/MAA_SEC.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -30px;
+    margin-bottom: 120px;
+    border: 2px solid #d0a77a;
+}
+.MAA_SEC .MAA_con::before
+{
+    content: '';
+    background: #000000db;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.MAA_SEC .MAA_con .info 
+{
+    color: #d0a77a;
+    text-align: center;
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: bold;
+}
+.MAA_SEC .MAA_con button 
+{
+    border: none;
+    background-color: #d0a77a;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 12px;
+    position: relative;
+    transition: var(--main-transition);
+}
+
+.MAA_SEC .MAA_con button a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: var(--main-transition);
+    z-index: 10;
+    position: relative;
+}
+.MAA_SEC .MAA_con button::before
+{
+    content: '';
+    background-color: white;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    transition: var(--main-transition);
+    z-index: 0;
+    border-radius: 12px;
+}
+.MAA_SEC .MAA_con button:hover::before{
+    width: 100%;
+}
+.MAA_SEC .MAA_con button:hover a
+{
+    color: #d0a77a;
+}
 /* end landing page  */
 .spikes {
     position: relative;
