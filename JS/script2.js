@@ -5,15 +5,20 @@ function countdown(element, start, end) {
         if (current === end) {
             clearInterval(interval);
         } else {
-            current--;
+            current++;
         }
     }, 100);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     const numbers = document.querySelectorAll('.number');
-    numbers.forEach(number => {
-        const target = parseInt(number.getAttribute('data-target'));
-        countdown(number, target, 0);
-    });
+    
+    // المتغير الأول يبدأ من 0 وينتهي عند 128
+    countdown(numbers[0], 0, 128);
+    
+    // المتغير الثاني يبدأ من 0 وينتهي عند 1
+    countdown(numbers[1], 0, 1);
+    
+    // المتغير الثالث يبدأ من 0 وينتهي عند 25
+    countdown(numbers[2], 0, 25);
 });
